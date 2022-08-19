@@ -1,0 +1,31 @@
+GIT BASH
+cd c/workspace
+
+mkdir linuxexperience
+
+cd linuxexperience/
+
+git config --global user.email "junio.mosilva@gmail.com"
+
+git config --global user.name juniomsilva
+
+Criar os arquivos dentro da pasta
+
+git add*
+
+git commit -m "Leia me comandos aulas linux" (Informação do que está sendo atualizado ou criado)
+
+git status
+
+
+
+
+Criar repositorio no GitHub
+
+No GitBash
+git remote add origin git@github.com:juniomsilva/linux_experience.git
+
+git push origin master
+
+Clonar repositorio criado diretamente no GitHub
+git clone git@github.com:juniomsilva/dio_desafio_github_1_rep.git
